@@ -8,10 +8,10 @@ public class Vakantie {
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.print("Hoeveel heeft Jürn uitgegeven? ");
-		double p1 = scanner.nextDouble(); // 150
+		double p1 = scanner.nextDouble();
 
 		System.out.print("Hoeveel heeft Cédric uitgegeven? ");
-		double p2 = scanner.nextDouble(); // 100
+		double p2 = scanner.nextDouble();
 
 		double total = p1 + p2;
 		double perPerson = total / 2;

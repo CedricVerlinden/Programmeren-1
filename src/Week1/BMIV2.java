@@ -7,7 +7,7 @@ public class BMIV2 {
 
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Beste patient, dit programma berekent je Week1.BMI.");
+		System.out.println("Beste patient, dit programma berekent je .BMI.");
 		System.out.print("Geef je gewicht in kilogram: ");
 		double weight = scanner.nextDouble();
 
@@ -15,7 +15,7 @@ public class BMIV2 {
 		double height = scanner.nextDouble();
 
 		double bmi = weight / (height * height);
-		System.out.println("Je Week1.BMI is: " + bmi);
+		System.out.println("Je .BMI is: " + bmi);
 
 		if (bmi < 18) {
 			System.out.println("Je hebt ondergewicht.");
