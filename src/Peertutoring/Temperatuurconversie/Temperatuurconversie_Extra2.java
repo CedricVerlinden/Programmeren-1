@@ -1,4 +1,4 @@
-package Peertutoring;
+package Peertutoring.Temperatuurconversie;
 
 import java.util.Scanner;
 
