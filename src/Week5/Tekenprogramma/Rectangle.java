@@ -2,9 +2,9 @@ package Week5.Tekenprogramma;
 
 public class Rectangle {
 
-	private double width;
-	private double height;
-	private Colour colour;
+	private final double width;
+	private final double height;
+	private final Colour colour;
 
 	public Rectangle(double width, double height, Colour colour) {
 		this.width = width;

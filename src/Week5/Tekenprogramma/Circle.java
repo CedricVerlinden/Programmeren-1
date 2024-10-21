@@ -2,8 +2,8 @@ package Week5.Tekenprogramma;
 
 public class Circle {
 
-	private double radius;
-	private Colour colour;
+	private final double radius;
+	private final Colour colour;
 
 	public Circle(double radius, Colour colour) {
 		this.radius = radius;
